@@ -1,0 +1,330 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Personal Edition 7.9.0.612">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>SAL - Shift Arithmetic Left</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="SAL - Shift Arithmetic Left">
+
+
+
+
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="SAL - Shift Arithmetic Left">
+  <meta name="twitter:description" content="">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="SAL - Shift Arithmetic Left" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="" />
+  <meta property="og:site_name" content="Intel Pentium Instruction Set Reference" />
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+    </button>
+    <h1>Intel Pentium Instruction Set Reference</h1>
+
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close">
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+
+
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="xtoc.json"
+            data-openlvl="1"
+        >
+
+        </div>
+      </div>  <!-- /contents-->
+
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="xkeywords.json"
+            data-openlvl="1"
+        >
+
+        </div>
+      </div>  <!-- /index-->
+
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid"
+		  data-hnd-id="MM84X4"
+		  data-hnd-context="970"
+		  data-hnd-title="SAL - Shift Arithmetic Left"
+		>
+
+                <div class="navigation">
+                    <ol class="breadcrumb">
+
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="MM84W4.html" title="SAHF - Store AH into Flags" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="MM84WZ.html" title="SAR - Shift Arithmetic Right" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div>
+
+
+            <a id="main-content"></a>
+
+            <h2>SAL - Shift Arithmetic Left</h2>
+
+            <div class="main-content">
+
+<p class="rvps3"><span class="rvts23">D0 /4&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SAL r/m8,1&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Multiply r/m8 by 2, once</span></p>
+<p class="rvps3"><span class="rvts23">D2 /4&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SAL r/m8,CL&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Multiply r/m8 by 2, CL times</span></p>
+<p class="rvps3"><span class="rvts23">C0 /4 ib&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SAL r/m8,imm8&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Multiply r/m8 by 2, imm8 times</span></p>
+<p class="rvps3"><span class="rvts23">D1 /4&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SAL r/m16,1&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Multiply r/m16 by 2, once</span></p>
+<p class="rvps3"><span class="rvts23">D3 /4&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SAL r/m16,CL&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Multiply r/m16 by 2, CL times</span></p>
+<p class="rvps3"><span class="rvts23">C1 /4 ib&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SAL r/m16,imm8&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Multiply r/m16 by 2, imm8 times</span></p>
+<p class="rvps3"><span class="rvts23">D1 /4&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SAL r/m32,1&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Multiply r/m32 by 2, once</span></p>
+<p class="rvps3"><span class="rvts23">D3 /4&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SAL r/m32,CL&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Multiply r/m32 by 2, CL times</span></p>
+<p class="rvps3"><span class="rvts23">C1 /4 ib&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SAL r/m32,imm8&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Multiply r/m32 by 2, imm8 times</span></p>
+<p class="rvps3"><span class="rvts23">D0 /7&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SAR r/m8,1&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Signed divide* r/m8 by 2, once</span></p>
+<p class="rvps3"><span class="rvts23">D2 /7&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SAR r/m8,CL&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Signed divide* r/m8 by 2, CL times</span></p>
+<p class="rvps3"><span class="rvts23">C0 /7 ib&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SAR r/m8,imm8&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Signed divide* r/m8 by 2, imm8 times</span></p>
+<p class="rvps3"><span class="rvts23">D1 /7&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SAR r/m16,1&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Signed divide* r/m16 by 2, once</span></p>
+<p class="rvps3"><span class="rvts23">D3 /7&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SAR r/m16,CL&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Signed divide* r/m16 by 2, CL times</span></p>
+<p class="rvps3"><span class="rvts23">C1 /7 ib&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SAR r/m16,imm8&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Signed divide* r/m16 by 2, imm8 times</span></p>
+<p class="rvps3"><span class="rvts23">D1 /7&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SAR r/m32,1&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Signed divide* r/m32 by 2, once</span></p>
+<p class="rvps3"><span class="rvts23">D3 /7&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SAR r/m32,CL&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Signed divide* r/m32 by 2, CL times</span></p>
+<p class="rvps3"><span class="rvts23">C1 /7 ib&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SAR r/m32,imm8&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Signed divide* r/m32 by 2, imm8 times</span></p>
+<p class="rvps3"><span class="rvts23">D0 /4&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SHL r/m8,1&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Multiply r/m8 by 2, once</span></p>
+<p class="rvps3"><span class="rvts23">D2 /4&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SHL r/m8,CL&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Multiply r/m8 by 2, CL times</span></p>
+<p class="rvps3"><span class="rvts23">C0 /4 ib&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SHL r/m8,imm8&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Multiply r/m8 by 2, imm8 times</span></p>
+<p class="rvps3"><span class="rvts23">D1 /4&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SHL r/m16,1&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Multiply r/m16 by 2, once</span></p>
+<p class="rvps3"><span class="rvts23">D3 /4&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SHL r/m16,CL&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Multiply r/m16 by 2, CL times</span></p>
+<p class="rvps3"><span class="rvts23">C1 /4 ib&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SHL r/m16,imm8&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Multiply r/m16 by 2, imm8 times</span></p>
+<p class="rvps3"><span class="rvts23">D1 /4&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SHL r/m32,1&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Multiply r/m32 by 2, once</span></p>
+<p class="rvps3"><span class="rvts23">D3 /4&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SHL r/m32,CL&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Multiply r/m32 by 2, CL times</span></p>
+<p class="rvps3"><span class="rvts23">C1 /4 ib&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SHL r/m32,imm8&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Multiply r/m32 by 2, imm8 times</span></p>
+<p class="rvps3"><span class="rvts23">D0 /5&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SHR r/m8,1&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Unsigned divide r/m8 by 2, once</span></p>
+<p class="rvps3"><span class="rvts23">D2 /5&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SHR r/m8,CL&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Unsigned divide r/m8 by 2, CL times</span></p>
+<p class="rvps3"><span class="rvts23">C0 /5 ib&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SHR r/m8,imm8&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Unsigned divide r/m8 by 2, imm8 times</span></p>
+<p class="rvps3"><span class="rvts23">D1 /5&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SHR r/m16,1&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Unsigned divide r/m16 by 2, once</span></p>
+<p class="rvps3"><span class="rvts23">D3 /5&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SHR r/m16,CL&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Unsigned divide r/m16 by 2, CL times</span></p>
+<p class="rvps3"><span class="rvts23">C1 /5 ib&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SHR r/m16,imm8&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Unsigned divide r/m16 by 2, imm8 times</span></p>
+<p class="rvps3"><span class="rvts23">D1 /5&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SHR r/m32,1&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Unsigned divide r/m32 by 2, once</span></p>
+<p class="rvps3"><span class="rvts23">D3 /5&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SHR r/m32,CL&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Unsigned divide r/m32 by 2, CL times</span></p>
+<p class="rvps3"><span class="rvts23">C1 /5 ib&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">SHR r/m32,imm8&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Unsigned divide r/m32 by 2, imm8 times</span></p>
+<p class="rvps3"><span class="rvts19"><br/></span></p>
+<p class="rvps3"><span class="rvts24">Description</span></p>
+<p class="rvps3"><span class="rvts19">Shifts the bits in the first operand (destination operand) to the left or right by the number of bits specified in the second operand (count operand). Bits shifted beyond the destination operand boundary are first shifted into the CF flag, then discarded. At the end of the shift operation, the CF flag contains the last bit shifted out of the destination operand.</span></p>
+<p class="rvps3"><span class="rvts19"><br/></span></p>
+<p class="rvps3"><span class="rvts19">The destination operand can be a register or a memory location. The count operand can be an immediate value or register CL. The count is masked to 5 bits, which limits the count range to 0 to 31. A special opcode encoding is provided for a count of 1.</span></p>
+<p class="rvps3"><span class="rvts19"><br/></span></p>
+<p class="rvps3"><span class="rvts19">The shift arithmetic left (SAL) and shift logical left (SHL) instructions perform the same operation; they shift the bits in the destination operand to the left (toward more significant bit loca-tions). For each shift count, the most significant bit of the destination operand is shifted into the CF flag, and the least significant bit is cleared (see Figure 6-6 in the Intel Architecture Software Developer's Manual, Volume 1).</span></p>
+<p class="rvps3"><span class="rvts19"><br/></span></p>
+<p class="rvps3"><span class="rvts19">The shift arithmetic right (SAR) and shift logical right (SHR) instructions shift the bits of the destination operand to the right (toward less significant bit locations). For each shift count, the least significant bit of the destination operand is shifted into the CF flag, and the most significant bit is either set or cleared depending on the instruction type. The SHR instruction clears the most significant bit (see Figure 6-7 in the Intel Architecture Software Developer's Manual, Volume 1); the SAR instruction sets or clears the most significant bit to correspond to the sign (most signif-icant bit) of the original value in the destination operand. In effect, the SAR instruction fills the empty bit position's shifted value with the sign of the unshifted value (see Figure 6-8 in the Intel Architecture Software Developer's Manual, Volume 1).</span></p>
+<p class="rvps3"><span class="rvts19"><br/></span></p>
+<p class="rvps3"><span class="rvts19">The SAR and SHR instructions can be used to perform signed or unsigned division, respectively, of the destination operand by powers of 2. For example, using the SAR instruction to shift a signed integer 1 bit to the right divides the value by 2.</span></p>
+<p class="rvps3"><span class="rvts19"><br/></span></p>
+<p class="rvps3"><span class="rvts19">Using the SAR instruction to perform a division operation does not produce the same result as the IDIV instruction. The quotient from the IDIV instruction is rounded toward zero, whereas the "quotient" of the SAR instruction is rounded toward negative infinity. This difference is apparent only for negative numbers. For example, when the IDIV instruction is used to divide -9 by 4, the result is -2 with a remainder of -1. If the SAR instruction is used to shift -9 right by two bits, the result is -3 and the "remainder" is +3; however, the SAR instruction stores only the most significant bit of the remainder (in the CF flag).</span></p>
+<p class="rvps3"><span class="rvts19"><br/></span></p>
+<p class="rvps3"><span class="rvts19">The OF flag is affected only on 1-bit shifts. For left shifts, the OF flag is cleared to 0 if the most-significant bit of the result is the same as the CF flag (that is, the top two bits of the original operand were the same); otherwise, it is set to 1. For the SAR instruction, the OF flag is cleared for all 1-bit shifts. For the SHR instruction, the OF flag is set to the most-significant bit of the original operand.</span></p>
+<p class="rvps3"><span class="rvts31"><br/></span></p>
+<p class="rvps3"><span class="rvts24">Operands</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts24">Bytes</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts24">Clocks</span></p>
+<p class="rvps3"><span class="rvts19">reg, 1 &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">2 &nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">1 &nbsp; PU</span></p>
+<p class="rvps3"><span class="rvts19">mem, 1 &nbsp; &nbsp;&nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">2+d(0,2)&nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">3 &nbsp; PU</span></p>
+<p class="rvps3"><span class="rvts19">reg, cl &nbsp; &nbsp; &nbsp;&nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">2 &nbsp;&nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">4 &nbsp; NP</span></p>
+<p class="rvps3"><span class="rvts19">mem, cl &nbsp; &nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">2+d(0,2)&nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">4 &nbsp; NP</span></p>
+<p class="rvps3"><span class="rvts19">reg, imm &nbsp; &nbsp; &nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">3 &nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">1 &nbsp; PU</span></p>
+<p class="rvps3"><span class="rvts19">mem, imm &nbsp;&nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">3+d(0,2)&nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">3 &nbsp; PU*</span></p>
+<p class="rvps3"><span class="rvts19"><br/></span></p>
+<p class="rvps3"><span class="rvts19">* = not pairable if there is a displacement and immediate</span></p>
+<p class="rvps3"><span class="rvts19"><br/></span></p>
+<p class="rvps3"><span class="rvts19">sal = shift arithmetic left &nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">sar = &nbsp;shift arithmetic right</span></p>
+<p class="rvps3"><span class="rvts19">shl = shift left (same as sal) &nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">shr = &nbsp;shift right</span></p>
+<p class="rvps3"><span class="rvts24"><br/></span></p>
+<p class="rvps3"><span class="rvts24">Flags</span></p>
+<p class="rvps3"><span class="rvts19">The CF flag contains the value of the last bit shifted out of the destination operand; it is undefined for SHL and SHR instructions where the count is greater than or equal to the size (in bits) of the destination operand. The OF flag is affected only for 1-bit shifts (see "Description" above); otherwise, it is undefined. The SF, ZF, and PF flags are set according to the result. If the count is 0, the flags are not affected. For a non-zero count, the AF flag is undefined.</span></p>
+<p class="rvps3"><span class="rvts30"></span><span class="rvts8"></span></p>
+<p class="rvps2" style="clear: both;"><span class="rvts6">Created with the Personal Edition of HelpNDoc: </span><a class="rvts7" href="https://www.helpndoc.com">Easy CHM and documentation editor</a></p>
+
+            </div>
+
+            <div id="topic_footer"><div id="topic_footer_content">Copyright &copy; &lt;Dates&gt; by &lt;Authors&gt;. All Rights Reserved.</div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 350px"></div>
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="xtranslations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>

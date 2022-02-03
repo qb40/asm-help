@@ -1,0 +1,330 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Personal Edition 7.9.0.612">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>CALL - Call Procedure</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="CALL - Call Procedure">
+
+
+
+
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="CALL - Call Procedure">
+  <meta name="twitter:description" content="">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="CALL - Call Procedure" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="" />
+  <meta property="og:site_name" content="Intel Pentium Instruction Set Reference" />
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+    </button>
+    <h1>Intel Pentium Instruction Set Reference</h1>
+
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close">
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+
+
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="xtoc.json"
+            data-openlvl="1"
+        >
+
+        </div>
+      </div>  <!-- /contents-->
+
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="xkeywords.json"
+            data-openlvl="1"
+        >
+
+        </div>
+      </div>  <!-- /index-->
+
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid"
+		  data-hnd-id="CVXAO"
+		  data-hnd-context="180"
+		  data-hnd-title="CALL - Call Procedure"
+		>
+
+                <div class="navigation">
+                    <ol class="breadcrumb">
+
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="MM7WX4.html" title="BTS - Bit Test and Set" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="CVXBO.html" title="CBW - Convert Byte to Word" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div>
+
+
+            <a id="main-content"></a>
+
+            <h2>CALL - Call Procedure</h2>
+
+            <div class="main-content">
+
+<p class="rvps3"><span class="rvts23">E8 cw&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">CALL rel16&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Call near, relative, displacement relative to next instruction</span></p>
+<p class="rvps3"><span class="rvts23">E8 cd&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">CALL rel32&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Call near, relative, displacement relative to next instruction</span></p>
+<p class="rvps3"><span class="rvts23">FF /2&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">CALL r/m16&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Call near, absolute indirect, address given in r/m16</span></p>
+<p class="rvps3"><span class="rvts23">FF /2&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">CALL r/m32&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Call near, absolute indirect, address given in r/m32</span></p>
+<p class="rvps3"><span class="rvts23">9A cd&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">CALL ptr16:16&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Call far, absolute, address given in operand</span></p>
+<p class="rvps3"><span class="rvts23">9A cp&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">CALL ptr16:32&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Call far, absolute, address given in operand</span></p>
+<p class="rvps3"><span class="rvts23">FF /3&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">CALL m16:16&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Call far, absolute indirect, address given in m16:16</span></p>
+<p class="rvps3"><span class="rvts23">FF /3&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">CALL m16:32&nbsp;</span><span class="rvts23"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts23">Call far, absolute indirect, address given in m16:32</span></p>
+<p class="rvps3"><span class="rvts19"><br/></span></p>
+<p class="rvps3"><span class="rvts24">Description</span></p>
+<p class="rvps3"><span class="rvts19">Saves procedure linking information on the stack and branches to the procedure (called proce-dure) specified with the destination (target) operand. The target operand specifies the address of the first instruction in the called procedure. This operand can be an immediate value, a general-purpose register, or a memory location.</span></p>
+<p class="rvps3"><span class="rvts19"><br/></span></p>
+<p class="rvps3"><span class="rvts19">This instruction can be used to execute four different types of calls:</span></p>
+<p class="rvps3"><span class="rvts19"><br/></span></p>
+<p class="rvps4"><span class="rvts32">•</span><span class="rvts32"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">Near call—A call to a procedure within the current code segment (the segment currently pointed to by the CS register), sometimes referred to as an intrasegment call.</span></p>
+<p class="rvps4"><span class="rvts32">•</span><span class="rvts32"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">Far call—A call to a procedure located in a different segment than the current code segment, sometimes referred to as an intersegment call.</span></p>
+<p class="rvps4"><span class="rvts32">•</span><span class="rvts32"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">Inter-privilege-level far call—A far call to a procedure in a segment at a different privilege level than that of the currently executing program or procedure.</span></p>
+<p class="rvps4"><span class="rvts32">•</span><span class="rvts32"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">Task switch—A call to a procedure located in a different task.</span></p>
+<p class="rvps3"><span class="rvts19"><br/></span></p>
+<p class="rvps3"><span class="rvts19">The latter two call types (inter-privilege-level call and task switch) can only be executed in protected mode. See the section titled "Calling Procedures Using Call and RET" in Chapter 4 of the Intel Architecture Software Developer's Manual, Volume 1, for additional information on near, far, and inter-privilege-level calls. See Chapter 6, Task Management, in the Intel Architecture Software Developer's Manual, Volume 3, for information on performing task switches with the CALL instruction.</span></p>
+<p class="rvps3"><span class="rvts19"><br/></span></p>
+<p class="rvps3"><span class="rvts24">Near Call</span><span class="rvts19">. When executing a near call, the processor pushes the value of the EIP register (which contains the offset of the instruction following the CALL instruction) onto the stack (for use later as a return-instruction pointer). The processor then branches to the address in the current code segment specified with the target operand. The target operand specifies either an absolute offset in the code segment (that is an offset from the base of the code segment) or a relative offset (a signed displacement relative to the current value of the instruction pointer in the EIP register, which points to the instruction following the CALL instruction). The CS register is not changed on near calls.</span></p>
+<p class="rvps3"><span class="rvts19"><br/></span></p>
+<p class="rvps3"><span class="rvts19">For a near call, an absolute offset is specified indirectly in a general-purpose register or a memory location (r/m16 or r/m32). The operand-size attribute determines the size of the target operand (16 or 32 bits). Absolute offsets are loaded directly into the EIP register. If the operand-size attribute is 16, the upper two bytes of the EIP register are cleared to 0s, resulting in a maximum instruction pointer size of 16 bits. (When accessing an absolute offset indirectly using the stack pointer [ESP] as a base register, the base value used is the value of the ESP before the instruction executes.)</span></p>
+<p class="rvps3"><span class="rvts19"><br/></span></p>
+<p class="rvps3"><span class="rvts19">A relative offset (rel16 or rel32) is generally specified as a label in assembly code, but at the machine code level, it is encoded as a signed, 16- or 32-bit immediate value. This value is added to the value in the EIP register. As with absolute offsets, the operand-size attribute determines the size of the target operand (16 or 32 bits).</span></p>
+<p class="rvps3"><span class="rvts19"><br/></span></p>
+<p class="rvps3"><span class="rvts24">Far Calls in Real-Address or Virtual-8086 Mode</span><span class="rvts19">. When executing a far call in real-address or virtual-8086 mode, the processor pushes the current value of both the CS and EIP registers onto the stack for use as a return-instruction pointer. The processor then performs a "far branch" to the code segment and offset specified with the target operand for the called procedure. Here the target operand specifies an absolute far address either directly with a pointer (ptr16:16 or ptr16:32) or indirectly with a memory location (m16:16 or m16:32). With the pointer method, the segment and offset of the called procedure is encoded in the instruction, using a 4-byte (16-bit operand size) or 6-byte (32-bit operand size) far address immediate. With the indirect method, the target operand specifies a memory location that contains a 4-byte (16-bit operand size) or 6-byte (32-bit operand size) far address. The operand-size attribute determines the size of the offset (16 or 32 bits) in the far address. The far address is loaded directly into the CS and EIP registers. If the operand-size attribute is 16, the upper two bytes of the EIP register</span></p>
+<p class="rvps3"><span class="rvts19">are cleared to 0s.</span></p>
+<p class="rvps3"><span class="rvts31"><br/></span></p>
+<p class="rvps3"><span class="rvts24">Far Calls in Protected Mode</span><span class="rvts19">. When the processor is operating in protected mode, the CALL instruction can be used to perform the following three types of far calls:</span></p>
+<p class="rvps3"><span class="rvts31"><br/></span></p>
+<p class="rvps4"><span class="rvts32">•</span><span class="rvts32"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">Far call to the same privilege level.</span></p>
+<p class="rvps4"><span class="rvts32">•</span><span class="rvts32"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">Far call to a different privilege level (inter-privilege level call).</span></p>
+<p class="rvps4"><span class="rvts32">•</span><span class="rvts32"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">Task switch (far call to another task).</span></p>
+<p class="rvps3"><span class="rvts31"><br/></span></p>
+<p class="rvps3"><span class="rvts19">In protected mode, the processor always uses the segment selector part of the far address to access the corresponding descriptor in the GDT or LDT. The descriptor type (code segment, call gate, task gate, or TSS) and access rights determine the type of call operation to be performed.</span></p>
+<p class="rvps3"><span class="rvts19"><br/></span></p>
+<p class="rvps3"><span class="rvts19">If the selected descriptor is for a code segment, a far call to a code segment at the same privilege level is performed. (If the selected code segment is at a different privilege level and the code segment is non-conforming, a general-protection exception is generated.) A far call to the same privilege level in protected mode is very similar to one carried out in real-address or virtual-8086 mode. The target operand specifies an absolute far address either directly with a pointer (ptr16:16 or ptr16:32) or indirectly with a memory location (m16:16 or m16:32). The operand-size attribute determines the size of the offset (16 or 32 bits) in the far address. The new code segment selector and its descriptor are loaded into CS register, and the offset from the instruction is loaded into the EIP register.</span></p>
+<p class="rvps3"><span class="rvts19"><br/></span></p>
+<p class="rvps3"><span class="rvts19">Note that a call gate (described in the next paragraph) can also be used to perform far call to a code segment at the same privilege level. Using this mechanism provides an extra level of indi-rection and is the preferred method of making calls between 16-bit and 32-bit code segments.</span></p>
+<p class="rvps3"><span class="rvts19"><br/></span></p>
+<p class="rvps3"><span class="rvts19">When executing an inter-privilege-level far call, the code segment for the procedure being called must be accessed through a call gate. The segment selector specified by the target operand identifies the call gate. Here again, the target operand can specify the call gate segment selector either directly with a pointer (ptr16:16 or ptr16:32) or indirectly with a memory location (m16:16 or m16:32). The processor obtains the segment selector for the new code segment and the new instruction pointer (offset) from the call gate descriptor. (The offset from the target operand is ignored when a call gate is used.) On inter-privilege-level calls, the processor switches to the stack for the privilege level of the called procedure. The segment selector for the new stack segment is specified in the TSS for the currently running task. The branch to the new code segment occurs after the stack switch. (Note that when using a call gate to perform a far call to a segment at the same privilege level, no stack switch occurs.) On the new stack, the processor pushes the segment selector and stack pointer for the calling procedure's stack, an (optional) set of parameters from the calling procedures stack, and the segment selector and instruction pointer for the calling procedure's code segment. (A value in the call gate descriptor determines how many parameters to copy to the new stack.) Finally, the processor branches to the address of the procedure being called within the new code segment.</span></p>
+<p class="rvps3"><span class="rvts19"><br/></span></p>
+<p class="rvps3"><span class="rvts19">Executing a task switch with the CALL instruction, is somewhat similar to executing a call through a call gate. Here the target operand specifies the segment selector of the task gate for the task being switched to (and the offset in the target operand is ignored.) The task gate in turn points to the TSS for the task, which contains the segment selectors for the task's code and stack segments. The TSS also contains the EIP value for the next instruction that was to be executed before the task was suspended. This instruction pointer value is loaded into EIP register so that the task begins executing again at this next instruction.</span></p>
+<p class="rvps3"><span class="rvts19"><br/></span></p>
+<p class="rvps3"><span class="rvts19">The CALL instruction can also specify the segment selector of the TSS directly, which elimi-nates the indirection of the task gate. See Chapter 6, Task Management, in the Intel Architecture Software Developer's Manual, Volume 3, for detailed information on the mechanics of a task switch.</span></p>
+<p class="rvps3"><span class="rvts19"><br/></span></p>
+<p class="rvps3"><span class="rvts19">Note that when you execute at task switch with a CALL instruction, the nested task flag (NT) is set in the EFLAGS register and the new TSS's previous task link field is loaded with the old tasks TSS selector. Code is expected to suspend this nested task by executing an IRET instruction, which, because the NT flag is set, will automatically use the previous task link to return to the calling task. (See "Task Linking" in Chapter 6 of the Intel Architecture Software Developer's Manual, Volume 3, for more information on nested tasks.) Switching tasks with the CALL instruction differs in this regard from the JMP instruction which does not set the NT flag and therefore does not expect an IRET instruction to suspend the task.</span></p>
+<p class="rvps3"><span class="rvts31"><br/></span></p>
+<p class="rvps3"><span class="rvts24">Mixing 16-Bit and 32-Bit Calls</span><span class="rvts19">. When making far calls between 16-bit and 32-bit code segments, the calls should be made through a call gate. If the far call is from a 32-bit code segment to a 16-bit code segment, the call should be made from the first 64 KBytes of the 32-bit code segment. This is because the operand-size attribute of the instruction is set to 16, so only a 16-bit return address offset is saved. Also, the call should be made using a 16-bit call gate so that 16-bit values will be pushed on the stack. See Chapter 16, Mixing 16-Bit and 32-Bit Code, in the Intel Architecture Software Developer's Manual, Volume 3, for more information on making calls between 16-bit and 32-bit code segments.</span></p>
+<p class="rvps3"><span class="rvts19"><br/></span></p>
+<p class="rvps3"><span class="rvts24">Operands</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts24">Bytes</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts24">Clocks</span></p>
+<p class="rvps3"><span class="rvts19">near &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">3 &nbsp; &nbsp;&nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">1 &nbsp; PV</span></p>
+<p class="rvps3"><span class="rvts19">reg &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">2 &nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">2 &nbsp; NP</span></p>
+<p class="rvps3"><span class="rvts19">mem16 &nbsp; &nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">2+d(0-2)&nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">2 &nbsp; NP</span></p>
+<p class="rvps3"><span class="rvts19">far &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">5 &nbsp;&nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">4 &nbsp; NP</span></p>
+<p class="rvps3"><span class="rvts19">mem32 &nbsp; &nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">2+d(0-2)&nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">4 &nbsp; NP</span></p>
+<p class="rvps3"><span class="rvts19"><br/></span></p>
+<p class="rvps3"><span class="rvts19">Protected Mode</span></p>
+<p class="rvps3"><span class="rvts19">far &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">5 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">4-13 &nbsp;NP</span></p>
+<p class="rvps3"><span class="rvts19">mem32 &nbsp; &nbsp;</span><span class="rvts19"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts19">2+d(0-2) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;5-14 &nbsp;NP</span></p>
+<p class="rvps3"><span class="rvts19"><br/></span></p>
+<p class="rvps3"><span class="rvts19">Cycles not shown for calls through call and task gates</span></p>
+<p class="rvps3"><span class="rvts24"><br/></span></p>
+<p class="rvps3"><span class="rvts24">Flags</span></p>
+<p class="rvps3"><span class="rvts19">All flags are affected if a task switch occurs; no flags are affected if a task switch does not occur.</span></p>
+<p class="rvps3"><span class="rvts30"></span><span class="rvts8"></span></p>
+<p class="rvps2" style="clear: both;"><span class="rvts6">Created with the Personal Edition of HelpNDoc: </span><a class="rvts7" href="https://www.helpndoc.com/feature-tour/create-help-files-for-the-qt-help-framework">Create help files for the Qt Help Framework</a></p>
+
+            </div>
+
+            <div id="topic_footer"><div id="topic_footer_content">Copyright &copy; &lt;Dates&gt; by &lt;Authors&gt;. All Rights Reserved.</div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 350px"></div>
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="xtranslations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
